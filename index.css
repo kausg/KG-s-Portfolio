@@ -1,0 +1,58 @@
+body{
+    background-color: #faa;
+}
+
+#logo{ 
+    font-family: "Rock Salt";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    
+}
+
+header{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+#icon-bar ul{
+    list-style-type: none;
+}
+#icon-bar {
+    position: fixed;
+    right: 20px;
+    top: 25%;
+}
+
+ul li:hover .fa-facebook {
+    color: #355ca3;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
+ul li:hover .fa-codepen {
+    color: #dd6026;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
+ul li:hover .fa-github {
+    color: #8b32d4;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
+ul li:hover .fa-linkedin {
+    color: #20b30d;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
+ul li:hover .fa-twitter {
+    color: #2b8db4;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
+ul li:hover .fa-envelope {
+    color: #e9e9e9;
+    text-shadow: 0 0 20px #3b5998;
+    transition: all 0.5s ease;
+}
